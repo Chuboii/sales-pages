@@ -22,4 +22,23 @@ export const Wrap = styled.div`
  align-items: center;
  margin-top: 1rem;
  justify-content:space-between;
+
+ @media screen and (max-width:768px) {
+  margin-top: 0;
+}
+
+`
+
+export const Box = styled.div`
+ display:flex;
+ align-items: center;
+ margin-top: 1rem;
+ justify-content:space-between;
+
+ @media screen and (max-width:768px){
+flex-direction:column;
+justify-content: normal;
+align-items: normal;
+
+  } 
 `

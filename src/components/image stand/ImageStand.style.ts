@@ -7,6 +7,10 @@ export const Container = styled.section`
 
  @media screen and (max-width:768px){
     display:flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  margin:0;
+
   }
 `
 export const ImageBox = styled.div`
@@ -17,7 +21,8 @@ export const ImageBox = styled.div`
   @media screen and (max-width:768px){
    width:250px;
    height:250px;
-   margin:0 1rem;
+   flex: 0 0 auto;
+  margin-right: 10px; 
   }
 
 `

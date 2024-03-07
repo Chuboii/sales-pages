@@ -6,7 +6,7 @@ import RecommendedText from '../recommended/recommended text/RecommendedText'
 import Reviews from '../reviews/Reviews'
 import SalesDiscountTag from '../sales discount tag/SalesDiscountTag'
 import SalesSection from '../sales section/SalesSection'
-import { Container, Text, Wrap} from './ProductDetails.style'
+import { Container,Box, Text, Wrap} from './ProductDetails.style'
 
 const ProductDetails = () => {
   return (
@@ -16,10 +16,10 @@ const ProductDetails = () => {
                   <Text>TEETH WHITENING KIT</Text>
             <SalesDiscountTag/>
         </Wrap>
-        <Wrap>
+        <Box>
           <Reviews />
           <RecommendedText />
-          </Wrap>
+          </Box>
               <Description />
               <Quality/>
               <SalesSection/>

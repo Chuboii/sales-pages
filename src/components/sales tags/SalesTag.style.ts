@@ -22,12 +22,22 @@ padding:2rem 1.5rem;
 cursor:pointer;
   border-radius: 25px;
   border: 2.5px solid ${({border}) => border};
+
+@media screen and (max-width:768px){
+  padding:.8rem 1.5rem;   
+}
 `
 export const Checkbox = styled.div<CheckBoxType>`
   width:30px;
   height:30px;
   background: ${({ bg }) => bg};;
   border-radius: 5px;
+
+  @media screen and (max-width:768px){
+width:20px;
+height:20px;
+
+}
 `
 
 export const ImageBox = styled.div`
@@ -35,9 +45,13 @@ export const ImageBox = styled.div`
     height: 70px;
     position: relative;
     margin-left: 1rem;
+    @media screen and (max-width:768px){
+ display:none;
+}
 `
 export const Text = styled.p`
   margin-left: 1rem;
+
 `
 export const Discount = styled.div`
    background-color: #F9D3FC;
@@ -73,6 +87,13 @@ export const BestValue = styled.div`
  background: black;
  font-weight: 600;
  text-transform: uppercase;
+
+ @media screen and (max-width:768px){
+  font-size:11px;
+  font-weight:200px;
+  padding:.5rem;
+
+}
 `
 export const BestSeller = styled.div`
  padding:.5rem 1rem;
