@@ -19,7 +19,7 @@ export const ImageBox = styled.div`
   height: 100px;
   margin-bottom: 1rem;
   @media screen and (max-width:768px){
-   width:250px;
+   width:300px;
    height:250px;
    flex: 0 0 auto;
   margin-right: 10px; 
