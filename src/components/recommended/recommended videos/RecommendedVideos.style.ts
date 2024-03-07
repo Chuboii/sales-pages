@@ -6,7 +6,9 @@ export const Container = styled.section`
  display: flex;
  padding-top: 2rem;
 
-
+ @media screen and (max-width:768px){
+    margin-bottom: -1rem;
+  }
 `
 
 export const Icon = styled.i`

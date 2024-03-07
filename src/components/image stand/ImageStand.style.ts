@@ -10,7 +10,7 @@ export const Container = styled.section`
   overflow-x: auto;
   white-space: nowrap;
   margin:0;
-
+   margin-bottom: -4rem;
   }
 `
 export const ImageBox = styled.div`
