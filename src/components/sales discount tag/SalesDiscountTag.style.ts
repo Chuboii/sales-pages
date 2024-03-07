@@ -11,4 +11,8 @@ export const Icon = styled.i`
 `
 export const Text = styled.p`
 
+@media screen and (max-width:768px) {
+  font-size:14px;
+}
+
 `

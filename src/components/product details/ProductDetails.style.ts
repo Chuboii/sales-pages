@@ -15,6 +15,11 @@ export const Container = styled.section`
 export const Text = styled.h1`
   font-weight: 500;
   font-size: 20px;
+  
+ @media screen and (max-width:768px) {
+font-size:18px;
+}
+
 `
 
 export const Wrap = styled.div`
